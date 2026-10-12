@@ -22,3 +22,4 @@ https://github.com/akanotanin/monitor-theme-rakugaki-re
 https://github.com/wxte/Monitor-Glass
 https://github.com/ayingQAQ/monitor-hahaha
 https://github.com/IkiiNet/monitor-theme
+https://github.com/8bitNull/monitor-theme-orbit

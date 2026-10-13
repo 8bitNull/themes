@@ -38,7 +38,8 @@ PR 的检查会下载你仓库最新正式 release 里的 `theme.tar.gz`，装�
 
 ## 收录之后
 
-- 网站每天更新一次，取各主题仓库的最新正式 release。发新版不用再来这里提 PR。
+- 网站每天更新一次，取各主题仓库的最新正式 release。发新版不用再来这里提 PR，也不用修改 `themes.txt` 中已有的仓库地址。
+- 发版后列表版本、作者或在线预览仍旧时，先等待下一次同步。自动同步计划为 UTC 20:00（北京时间次日 04:00），实际启动时间可能延后；需要提前刷新时，仓库维护者可在 Actions 中手动运行 [deploy](https://github.com/monitor-probe/themes/actions/workflows/deploy.yml)。同步失败时查看该任务的构建 Summary，按检查结果修正最新 release 的安装包。
 - 最新 release 没通过检查时，主题从网站下架，在线预览也一并删除；修好后发新 release，下次更新时自动恢复。
 - 不想再被收录，提 PR 删掉 `themes.txt` 里的那一行。
 
